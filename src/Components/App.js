@@ -1,8 +1,17 @@
 import React from "react";
+import AboutUs from "./About-us";
+import Hero from "./Hero";
+import NavBar from "./NavBar";
 
 function App() {
   return (
-    <h1>it works foo</h1>
+    <>
+      <NavBar/>
+      <Hero />
+      <AboutUs />
+    </>
+    
+
   );
 }
 
